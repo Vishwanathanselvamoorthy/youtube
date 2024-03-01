@@ -8,7 +8,7 @@ const MainContainer = () => {
   const buttons = useSelector((state) => state.button.showButton);
 
   return (
-    <div className="">
+    <div className="-z-0">
       {buttons && <ButtonList />}
 
       <Outlet />

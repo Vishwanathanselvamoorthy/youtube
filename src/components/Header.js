@@ -81,7 +81,7 @@ const Header = () => {
             <FontAwesomeIcon className="text-md" icon={faMagnifyingGlass} />
           </button>
         </div>
-        <div className="fixed bg-[#212121] w-[37rem] z-10">
+        <div className="fixed bg-[#212121] w-[37rem] z-0">
           {searchSuggestion.map((suggestion) => (
             <ul className="flex items-center text-xl m-6 gap-4">
               <FontAwesomeIcon icon={faMagnifyingGlass} />
