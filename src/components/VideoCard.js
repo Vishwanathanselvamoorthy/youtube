@@ -4,7 +4,7 @@ import { formatDuration } from "./utils/helper";
 import { formatViews } from "./utils/helper";
 
 const VideoCard = ({ videoData }) => {
-  console.log(videoData);
+  
 
   const { snippet, statistics, contentDetails } = videoData;
   const { duration } = contentDetails;
